@@ -1,0 +1,7 @@
+ariadna_spotify.list:
+  path: '/spotify'
+  defaults:
+      _controller: '\Drupal\ariadna\Controller\SpotifyController::spotify'
+      _title: 'Spotify'
+  requirements:
+      _permission: 'access content'

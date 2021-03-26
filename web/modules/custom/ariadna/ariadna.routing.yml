@@ -5,3 +5,10 @@ ariadna_spotify.list:
       _title: 'Spotify'
   requirements:
       _permission: 'access content'
+ariadna_form.form_api:
+  path: '/newsletter'
+  defaults:
+    _form:  '\Drupal\ariadna\Form\AriadnaForm'
+    _title: 'Ariadna Form'
+  requirements:
+    _permission: 'access content'

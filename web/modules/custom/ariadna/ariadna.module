@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Contains ariadna.module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function ariadna_theme() {
+  return [
+    'ariadna' => [
+      'variables' => [],
+    ],
+  ];
+}
+
+function ariadna_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'ariadna/ariadna';
+}
